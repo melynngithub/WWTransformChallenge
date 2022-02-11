@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+    Wish Week tranform Challenge
+</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Codystar:wght@300&display=swap" rel="stylesheet">
+<style>
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffff, 0 0 40px #ffff, 0 0 50px #ffff, 0 0 60px #ffff, 0 0 70px #ffff;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ffff, 0 0 40px #ffff, 0 0 50px #ffff, 0 0 60px #ffff, 0 0 70px #ffff, 0 0 80px #ffff;
+  }
+}
+
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+body {
+    width: 560px; 
+	height: 400px; 
+	background-image: url(space.jpeg);
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+	animation: animatedBackground 40s linear infinite;
+    /*background: url(space.jpeg); no-repeat center fixed;
+    background-size: cover;*/
+    width:70%;
+    margin: auto;
+    text-align:center;
+}
+h1 {
+    color: white;
+    font-family: 'Codystar', cursive;
+    font-size: 150px;
+}
+
+h2 {
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:40px;
+
+}
+h4 {
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 40px;
+    
+}
+
+
+
+</style>
+</head>
+
+<body>
+<h1 class="glow">Wish Week 2022</h1>
+<h2>Mountain Vista High School</h2>
+<h4>We love you Walter!</h4>
+
+</body>
+
+</html>
